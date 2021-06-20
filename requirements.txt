@@ -1,16 +1,4 @@
 line-bot-sdk
 flask
 werkzeug>=0.15.4
-requests >= 2.0
-future
-pytest
-pytest-pep8
-pytest-cov
-responses
-tox
-wheel
-sphinx>=2
-sphinx_rtd_theme
-pypandoc
-twine
 
