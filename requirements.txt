@@ -2,4 +2,4 @@ line-bot-sdk
 flask
 werkzeug>=0.15.4
 future
-
+python-3.9.2
