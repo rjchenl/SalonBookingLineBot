@@ -1,1 +1,1 @@
-worker: python app.py --port=8000
+web: uwsgi uwsgi.ini --port=5050
