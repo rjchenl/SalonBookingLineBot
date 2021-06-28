@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini --port=5050
+web: uwsgi uwsgi.ini
