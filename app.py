@@ -76,6 +76,11 @@ def make_static_tmp_dir():
             raise
 
 
+@app.route("/", methods=['GET'])
+def home():
+    return "hi"
+
+
 @app.route("/callback", methods=['POST'])
 def callback():
     # get X-Line-Signature header value
