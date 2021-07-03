@@ -671,6 +671,10 @@ def handle_member_left(event):
 def send_static_content(path):
     return send_from_directory('static', path)
 
+@app.route("/")
+def hello_world():
+    return "hello world!"
+
 
 if __name__ == "__main__":
     print("12333")
