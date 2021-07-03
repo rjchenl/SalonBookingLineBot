@@ -2,6 +2,7 @@ line-bot-sdk
 flask
 werkzeug>=0.15.4
 future
+gunicorn
 gevent
 uwsgi
 uwsgi-tools
