@@ -1,1 +1,1 @@
-web: gunicorn salon-line-bot:app
+web: gunicorn app:app
